@@ -8,64 +8,89 @@
 
 	<style>
 		html {
-			height: 100%;
 			padding: 0;
 			margin: 0;
 		}
+
 		body {
-			height: 100%;
 			background-color: hsl(0, 0%, 100%);
-			color: rgb(255, 247, 247);
+			color: rgb(71, 71, 71);
 			padding: 0;
 			margin: 0;
 			font-size: 16px;
-			font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
-				Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+			font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell,
+				Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 		}
+
 		a {
 			color: #ebb;
 		}
-        .illustration {
-            padding: 10px;
-        }
+
+		#content {
+			max-width: 900px;
+			margin: 0 auto;
+			background-color: #eee;
+		}
+
+		header {
+			font-size: 50px;
+			font-weight: 100;
+			padding-left: 20px;
+		}
+		.illustrations {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-top: 100px;
+		}
+
+		.illustration {
+			padding: 10px;
+		}
+
+		/* applies same style settings to every footer on every page */
+		footer {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 30px;
+		}
+
+		.icon {
+			font-size: 24px;
+			color: rgb(0, 0, 0);
+			text-decoration: none;
+		}
 	</style>
 
 	<body>
 		<div id="root">
 			<div id="content">
-				<section
-					style="
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						flex-wrap: wrap;
-						padding: 10px;
-					"
-				>
-						<img class="illustration"
-							src="assets/grump squirrel cropped face.jpg"
-							style="width: 642px; height: 558px;"
-						/>
-						<img class="illustration"
-							src="assets/grump squirrel cropped face close.jpg"
-							style="width: 477px; height: 397px;"
-                        />
-                        <img class="illustration"
-                            src="assets/grump squirrel cropped face closer.jpg"
-                            style="width: 168px; height: 139px;"
-                        />
-					<a
-						class="item"
-						href="mailto:placeholder@gmail.com"
-						style="
-							font-size: 24px;
-							color: rgb(56, 95, 75);
-							text-decoration: none;
-						"
-					>
-						<span style="line-height: 1;">✉</span>
-					</a>
+				<header>LISA ATKINSON</header>
+				<section class="illustrations">
+					<img
+						class="illustration"
+						src="assets/grump squirrel cropped face.jpg"
+						style="width: auto; height: 250px"
+					/>
+					<img
+						class="illustration"
+						src="assets/grump squirrel cropped face close.jpg"
+						style="width: auto; height: 300px"
+					/>
+					<img
+						class="illustration"
+						src="assets/grump squirrel cropped face closer.jpg"
+						style="width: auto; height: 50px"
+					/>
 				</section>
+				<!-- align-items: center (to align multiple icons vertically) -->
+				<footer>
+					<a class="icon" href="mailto:placeholder@gmail.com">
+						<span style="line-height: 1">✉</span>
+					</a>
+				</footer>
 			</div>
 		</div>
 	</body>
