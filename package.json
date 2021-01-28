@@ -2,6 +2,9 @@
   "name": "site",
   "version": "1.0.0",
   "description": "personal website",
+  "scripts": {
+    "start": "sirv --dev"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dinorawr/site.git"
@@ -27,5 +30,8 @@
         }
       }
     ]
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.10"
   }
 }

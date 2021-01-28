@@ -1,0 +1,110 @@
+:root {
+	--active-link-color: #000;
+	--icon-color: #000;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+/* #scrollbar {
+	/* border: 1px solid black; */
+/* width: 250px; */
+/* height: 100px; */
+/* overflow-y: scroll; */
+/* margin-bottom: 12px; */
+
+body {
+	background-color: hsl(0, 0%, 100%);
+	/* color: rgb(71, 71, 71); */
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell,
+		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	overflow-y: scroll;
+}
+
+a:hover {
+	/* color: rgb(0, 0, 0); */
+	color: var(--active-link-color);
+}
+a {
+	text-decoration: none; /* no underline */
+	color: rgb(114, 113, 119);
+}
+
+#content {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #eee;
+}
+
+header {
+	font-size: 50px;
+	font-weight: 100;
+	padding-left: 20px;
+}
+
+nav {
+	/* padding-left: 20px; */
+	padding-right: 20px;
+	display: flex;
+	justify-content: flex-end;
+	/* justify-content: right; */
+	/* align-items: center; */
+}
+
+nav a {
+	padding: 5px 10px;
+}
+h1 {
+	font-weight: 100;
+	padding-left: 20px;
+}
+
+p {
+	font-weight: 100;
+	/* padding-left: 20px; */
+	color: rgb(114, 113, 119);
+}
+.active-link {
+	color: var(--active-link-color);
+	/* color: #000; */
+
+	/* cursor: default; */
+}
+.text {
+	padding-left: 20px;
+}
+.illustrations {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+
+.illustration {
+	padding: 10px;
+}
+
+footer {
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	text-align: center;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.icon {
+	font-size: 24px;
+	color: var(--icon-color);
+	/* color: rgb(0, 0, 0); */
+	text-decoration: none;
+}
+
+/* small {
+	/* font-size: 85%; */
