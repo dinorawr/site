@@ -38,7 +38,8 @@ a {
 #content {
 	max-width: 900px;
 	margin: 0 auto;
-	background-color: #eee;
+	/* background-color: #eee; */
+	background-color: rgb(255, 255, 255);
 }
 
 header {
