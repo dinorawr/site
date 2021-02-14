@@ -8,16 +8,8 @@ html {
 	margin: 0;
 }
 
-/* #scrollbar {
-	/* border: 1px solid black; */
-/* width: 250px; */
-/* height: 100px; */
-/* overflow-y: scroll; */
-/* margin-bottom: 12px; */
-
 body {
 	background-color: hsl(0, 0%, 100%);
-	/* color: rgb(71, 71, 71); */
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
@@ -27,31 +19,27 @@ body {
 }
 
 a:hover {
-	/* color: rgb(0, 0, 0); */
 	color: var(--active-link-color);
 }
 a {
-	text-decoration: none; /* no underline */
+	text-decoration: none;
 	color: rgb(114, 113, 119);
 }
 
 #content {
 	max-width: 900px;
 	margin: 0 auto;
-	/* background-color: #eee; */
 	background-color: rgb(255, 255, 255);
 }
 
 header {
 	font-size: 50px;
 	font-weight: 100;
-	/* padding-left: 20px; */
 }
 
 header a {
 	display: flex;
 	justify-content: center;
-	/* flex-wrap: wrap; */
 	padding-bottom: 10px;
 	margin-top: 60px;
 }
@@ -63,35 +51,19 @@ header a img {
 }
 
 nav {
-	/* padding-left: 20px; */
 	padding-right: 20px;
 	display: flex;
-	/* justify-content: flex-end; */
 	justify-content: center;
-
-	/* justify-content: right; */
-	/* align-items: center; */
 	flex-wrap: wrap;
 }
 
 nav a {
 	padding: 5px 10px;
-	/* white-space: nowrap - no wrap for Traditional Media */
 	white-space: nowrap;
 }
 
-/* display:flex will put them on one line by default 
-(by default, flex-direction:row is implied by display:flex)
-but flex-direction:column will make it one line downwards 
-*/
-
-/* flex-wrap:wrap will allow content to go to next line if
-it fills up available space */
 .contact-content {
 	display: flex;
-	/* flex-direction: row; */
-	/* flex-wrap:wrap;  */
-	/* flex-direction: column; */
 	justify-content: left;
 }
 .contact-text {
@@ -104,19 +76,14 @@ h1 {
 
 p {
 	font-weight: 100;
-	/* padding-left: 20px; */
 	color: rgb(114, 113, 119);
 }
 .active-link {
 	color: var(--active-link-color);
-	/* color: #000; */
-
-	/* cursor: default; */
 }
 
 .image-nav {
 	font-weight: 100;
-	/* padding-left: 20px; */
 	color: rgb(114, 113, 119);
 	display: flex;
 	justify-content: flex-end;
@@ -138,15 +105,8 @@ p {
 .illustration {
 	padding: 10px;
 }
-/* main {
-	display: flex;
-	flex-wrap: wrap;
-} */
 
 footer {
-	/* display: flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
 	text-align: center;
 	margin-top: 30px;
 	padding: 10px;
@@ -155,9 +115,5 @@ footer {
 .icon {
 	font-size: 24px;
 	color: var(--icon-color);
-	/* color: rgb(0, 0, 0); */
 	text-decoration: none;
 }
-
-/* small {
-	/* font-size: 85%; */
