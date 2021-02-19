@@ -93,6 +93,7 @@ p {
 }
 .text {
 	padding-left: 20px;
+	padding-right: 20px;
 }
 .illustrations {
 	display: flex;
